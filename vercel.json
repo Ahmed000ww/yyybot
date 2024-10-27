@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {"src": "kindi (1).php.txt", "use": "@vercel/python"}
+    ],
+    "routes": [
+        {"src": "/(.*)", "dest": "kindi (1).php.txt"}
+    ]
+}
